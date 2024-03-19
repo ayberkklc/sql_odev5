@@ -5,7 +5,7 @@ WHERE title LIKE ('%n')
 ORDER BY length DESC
 LIMIT 5;</code>
 <br></br><b> Soru 2 </b> 
-<code> SSELECT * FROM film
+<code> SELECT * FROM film
 WHERE title LIKE ('%n')
 ORDER BY length
 OFFSET 5
